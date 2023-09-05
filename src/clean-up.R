@@ -5,6 +5,8 @@ for (fi in fileEndings) {
   file.remove(files)
 }
 
+# Adding some comments
+
 # Delete all files in temp directories
 # (does note delete hidden files starting with . (e.g. .gitkeep is not deleted))
 unlink(paste(getwd(),'/gen/analysis/temp/*',sep=''),recursive=T,force=T)
